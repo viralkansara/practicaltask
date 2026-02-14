@@ -1,0 +1,100 @@
+{
+  "info": {
+    "_postman_id": "0ba8785d-a7f7-4ae9-a6d8-d61a834768d7",
+    "name": "practical_task",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "20120604"
+  },
+  "item": [
+    {
+      "name": "reigisterUser",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"firstName\": \"test\",\r\n    \"lastName\": \"test\",\r\n    \"email\": \"test123@gmail.com\",\r\n    \"number\": \"5544662211\",\r\n    \"password\": \"test@123\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:5000/api/user/registration",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5000",
+          "path": [
+            "api",
+            "user",
+            "registration"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "loginUser",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"firstName\": \"test\",\r\n    \"lastName\": \"test\",\r\n    \"email\": \"test123@gmail.com\",\r\n    \"number\": \"5544662211\",\r\n    \"password\": \"test@123\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:5000/api/user/registration",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5000",
+          "path": [
+            "api",
+            "user",
+            "registration"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "getUserDetails",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"firstName\": \"test\",\r\n    \"lastName\": \"test\",\r\n    \"email\": \"test123@gmail.com\",\r\n    \"number\": \"5544662211\",\r\n    \"password\": \"test@123\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:5000/api/user/registration",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5000",
+          "path": [
+            "api",
+            "user",
+            "registration"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
