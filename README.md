@@ -60,7 +60,7 @@ Create a `.env` file in the `backend` folder (copy from `.env.example`):
 PORT=5000
 SALT_ROUNDS=10
 JWT_SECRET_KEY="viralKansara"
-DATABASE_NAME="practicaltaks"
+DATABASE_NAME="practicaltask"
 DATABASE_USER="root"
 DATABASE_PASSWORD="yourpassowed"
 DATABASE_HOST_NAME="localhost"
